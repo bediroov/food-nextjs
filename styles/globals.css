@@ -2,7 +2,7 @@
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
- 
+
  
  * {
   box-sizing: border-box;
@@ -11,10 +11,15 @@
 } 
 
 
+
 html 
 body{
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+.btn-primary{
+@apply bg-primary rounded-3xl px-[30px] py-[8px]  cursor-pointer hover:opacity-70
 }
 
 
